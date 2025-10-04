@@ -394,3 +394,9 @@ article .icon{
     color: black;
     border-color: rgb(163,163,163)
 }
+
+/* SKILLS SECTION */
+
+#skills {
+    position: relative;
+}
