@@ -329,20 +329,20 @@ section {
 }
 
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experiences{
+#skills{
     position: relative;
 }
 
-.experience-sub-title{
+.skill-sub-title{
     color: rgb(85,85,85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.experience-details-container{
+.skill-details-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -395,8 +395,42 @@ article .icon{
     border-color: rgb(163,163,163)
 }
 
-/* SKILLS SECTION */
+/* CONTACT */
 
-#skills {
-    position: relative;
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background-color: (250,250,250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2rem;
 }
