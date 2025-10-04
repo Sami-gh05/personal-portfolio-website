@@ -323,8 +323,13 @@ section {
 
 .section__pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.text-container {
+    display: flex;
     margin: auto 0;
 }
 
