@@ -434,3 +434,14 @@ article .icon{
 .email-icon {
     height: 2rem;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    height: 26vh; /* vh stands for view height */
+    margin: 0 1rem;
+}
+
+fooetr, p {
+    text-align: center;
+}
